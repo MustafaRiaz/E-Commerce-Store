@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/6ca36a6423.js" crossorigin="anonymous"></script> -->
+    <title>E-Store</title>
+</head>
+<body>
+    <section class="row firstBar">
+        <div class="logo">
+            E-Store
+        </div>
+        <div class="searchBar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="slider-container rowJustify">
+            <div class="slider">
+                <img src="resources/images (1).jpeg" alt="Image 1">
+                <img src="resources/images (2).jpeg" alt="Image 2">
+                <img src="resources/images.jpeg" alt="Image 3">
+                <img src="resources/images.jpeg" alt="Image 3">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>        
+    </section>
+    <section class="products">
+        <h2>Product Categories</h2><br>
+        <div class="productCategories rowJustify">
+            <div class="productBox">
+                <img src="resources/images.jpeg" alt="image1">
+                <p>Graphics Cards</p>
+            </div>
+            <div class="productBox ">
+                <img src="resources/images (1).jpeg" alt="image1">
+                <p>HD Graphics Cards</p>
+            </div>
+            <div class="productBox">
+                <img src="resources/images.jpeg" alt="image1">
+                <p>Ultra HD Cards</p>
+            </div>
+        </div>
+    </section>
+    <section class="row">
+        <h2>Products</h2><br>
+        <div class="rowJustify row">
+            <div class="productBox">
+                <img src="resources/images (1).jpeg" alt="image1">
+                <p>This is a best graphics card for the gaming, highly suggested</p>
+            </div>
+            <div class="productBox">
+                <img src="resources/images (2).jpeg" alt="image1">
+                <p>This is a premium quality headphone with noise cancellation feature.</p>
+            </div>
+            <div class="productBox">
+                <img src="resources/images.jpeg" alt="image1">
+                <p>This is a sleek and stylish laptop with powerful performance.</p>
+            </div>
+            <div class="productBox">
+                <img src="resources/images (2).jpeg" alt="image1">
+                <p>This is a high-definition monitor with vibrant colors and wide viewing angles.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 E-Store. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
